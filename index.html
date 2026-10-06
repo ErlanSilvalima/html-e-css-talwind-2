@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links | Linktree</title>
+    <!-- Importação do Tailwind CSS via CDN -->
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-gray-900 to-zinc-900 text-white min-h-screen flex items-center justify-center p-4">
+
+    <!-- Container Principal (Efeito Vidro / Glassmorphism) -->
+    <div class="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-2xl text-center">
+        
+        <!-- Foto de Perfil -->
+        <div class="relative w-24 h-24 mx-auto mb-4">
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-fuchsia-500 rounded-full animate-pulse blur-sm"></div>
+            <!-- Substitua a URL abaixo pela foto que desejar -->
+            <img class="relative w-full h-full object-cover rounded-full border-2 border-white/20" src="https://unsplash.com" alt="Foto de Perfil">
+        </div>
+
+        <!-- Informações do Perfil -->
+        <h1 class="text-2xl font-bold tracking-tight mb-1">Alex Silva</h1>
+        <p class="text-cyan-400 text-sm font-medium mb-6">@alexsilva.dev</p>
+
+        <!-- Descrição Curta -->
+        <p class="text-gray-400 text-sm mb-8 leading-relaxed">
+            Desenvolvedor Full Stack & Criador de Conteúdo. Transformando café em linhas de código eficientes. ☕🚀
+        </p>
+
+        <!-- Bloco de Links -->
+        <div class="space-y-4">
+            
+            <!-- Link 1 -->
+            <a href="https://github.com" target="_blank" class="block w-full py-4 px-6 bg-white/10 hover:bg-white/20 border border-white/5 rounded-xl font-medium tracking-wide transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/10">
+                🌐 Meu Portfólio / Website
+            </a>
+
+            <!-- Link 2 -->
+            <a href="https://linkedin.com" target="_blank" class="block w-full py-4 px-6 bg-white/10 hover:bg-white/20 border border-white/5 rounded-xl font-medium tracking-wide transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/10">
+                💼 Conecte-se no LinkedIn
+            </a>
+
+            <!-- Link 3 -->
+            <a href="https://github.com" target="_blank" class="block w-full py-4 px-6 bg-white/10 hover:bg-white/20 border border-white/5 rounded-xl font-medium tracking-wide transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/10">
+                💻 Repositórios no GitHub
+            </a>
+
+            <!-- Link 4 (Destaque / Botão de Ação) -->
+            <a href="https://wa.me" target="_blank" class="block w-full py-4 px-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold tracking-wide rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl hover:shadow-cyan-500/20">
+                💬 Fale Comigo no WhatsApp
+            </a>
+
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="mt-10 text-xs text-gray-500 tracking-wider uppercase">
+            © 2026 Alex Silva • Criado com Tailwind
+        </footer>
+
+    </div>
+
+</body>
+</html>
